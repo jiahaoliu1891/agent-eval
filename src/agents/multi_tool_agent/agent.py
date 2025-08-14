@@ -81,10 +81,10 @@ root_agent = Agent(
 eval_agent = Agent(
     name="eval_agent",
     model="gemini-2.0-flash",
-    description="A human",
+    description="Simulated human agent for evaluation",
     instruction=(
         "You are a human"
-        "You a talking to a weather and time agent who can answer questions about the time and weather in a city."
+        "You are talking to a weather and time agent who can answer questions about the time and weather in a city."
         "You want to know new york's weather." 
         "After you get the answer, reply <STOP> to end the conversation."
     )
